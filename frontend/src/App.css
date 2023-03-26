@@ -1,0 +1,97 @@
+.mainImage img
+{
+  width: 20%;
+  margin-left: 10rem;
+}
+
+.navbar
+{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.buttons
+{
+  margin-right: 12rem;
+  display: flex;
+  justify-content: space-between;
+  width: 20%;
+}
+
+.Lite
+{
+  background-color: transparent;
+  cursor: pointer;
+  width: 40%;
+  font-size: large;
+  padding: .4rem;
+  /* display: flex; */
+
+  /* justify-content: space-between; */
+  /* align-items: center; */
+  color: rgb(82, 82, 250);
+  border: 2px solid rgb(82, 82, 250);
+  border-radius: 10px;
+}
+
+.Lite:hover,.dashboard:hover, .content button:hover
+{
+  opacity: 0.6;
+}
+
+.dashboard
+{
+  background-color: rgb(82, 82, 250);
+  border:2px solid rgb(82, 82, 250);
+  color: #fff;
+  font-size: large;
+  /* width: 80%; */
+  width: 45%;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.center
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  margin-top: 3rem;
+  /* margin-left: rem; */
+  font-size: 2.8rem;
+}
+
+.title
+{
+  /* font-size: 3rem; */
+  width: 35%;
+}
+
+.title span{
+  color: rgb(82, 82, 250);
+}
+
+.content
+{
+  /* display: flex; */
+  width: 23%;
+  margin-top: 2rem;
+  margin-left: 22rem;
+  color: grey;
+  font-size: 1.5rem;
+  /* font-weight: 600; */
+}
+
+.content button
+{
+  background-color: transparent;
+  border: 2px solid rgb(82, 82, 250);
+  color: rgb(82, 82, 250);
+  padding: 1rem;
+  width: 60%;
+  font-size: large;
+  cursor: pointer;
+  border-radius: 10px;
+}
