@@ -35,9 +35,9 @@
   border-radius: 10px;
 }
 
-.Lite:hover,.dashboard:hover, .content button:hover
+.Lite:hover,.dashboard:hover, .content button:hover,.mainContent div button:hover
 {
-  opacity: 0.6;
+  opacity: 0.7;
 }
 
 .dashboard
@@ -50,6 +50,11 @@
   width: 45%;
   border-radius: 10px;
   cursor: pointer;
+}
+
+ .linked {
+  color: #fff;
+  text-decoration: none;
 }
 
 .center
@@ -94,4 +99,105 @@
   font-size: large;
   cursor: pointer;
   border-radius: 10px;
+}
+
+.valuesLocked
+{
+  margin-left: 40rem;
+  margin-top: 5rem;
+  font-size: 2rem;
+  color: grey;
+}
+
+.valuesLocked span
+{
+  color: rgb(82, 82, 250);
+  font-size: 4.5rem;
+  position: relative;
+  right: 4.8rem;
+  font-weight: 600;
+}
+
+.mainContent
+{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 3rem;
+}
+
+.mainContent div 
+{
+  font-size: 2rem;
+  /* margin-bottom: 2rem; */
+  margin-left: 16rem;
+  width: 30%;
+  margin-top: 3rem;
+  /* margin-left: 3rem; */
+}
+
+.mainContent div span
+{
+  color: rgb(82, 82, 250);
+  font-size: 2rem;
+}
+
+.mainContent div button
+{
+  background-color: rgb(82, 82, 250);
+  border:2px solid rgb(82, 82, 250);
+  color: #fff;
+  font-size: large;
+  /* width: 80%; */
+  width: 45%;
+  border-radius: 10px;
+  cursor: pointer;
+  padding: 1rem;
+}
+
+.mainContent img
+{
+  width: 25%;
+  margin-right: 10rem;
+}
+
+.dasboardImage img{
+  width: 25%;
+  padding: 1%;
+  margin-top: 10rem;
+  margin-left: 4rem;
+}
+
+.staking
+{
+  font-size: 3rem;
+  position: relative;
+  top: 8rem;
+  margin-left: 40rem;
+  color: blue;
+}
+
+.first button{
+  background-color: rgb(82, 82, 250);
+  border:2px solid rgb(82, 82, 250);
+  color: #fff;
+  font-size: large;
+  /* width: 80%; */
+  width: 11%;
+  border-radius: 10px;
+  cursor: pointer;
+  padding: 1rem;
+}
+
+.stake1
+{
+  /* width: 2rem.; */
+  margin-left: 5rem;
+  margin-right: 2rem;
+  
+}
+.first
+{
+  margin-left: 30rem;
+  /* padding: 2rem; */
 }
